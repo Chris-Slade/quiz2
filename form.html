@@ -1,0 +1,36 @@
+    <div id="formContainer">
+      <header>
+        <h2>Log In</h2>
+      </header>
+      <form id="login" action="register.php" method="post" 
+        enctype="multipart/form-data">
+
+        <label>
+          Enter your first name
+          <input type="text" id="firstNameInput" name="firstName"
+            required="true" placeholder="First Name">
+          </input>
+        </label>
+        <br />
+
+        <label>
+          Enter your last name
+          <input type="text" id="lastNameInput" name="lastName"
+            required="true" placeholder="Last Name">
+          </input>
+        </label>
+        <br />
+
+        <label>
+          Enter your email address
+          <input type="email" id="emailInput" name="email" required="true" 
+            placeholder="Email">
+          </input>
+
+        <input type="submit" id="submitButton" name="submit" value="Submit"></input>
+
+        <input type="reset" value="Reset"/>
+
+      </form>
+
+    </div>
